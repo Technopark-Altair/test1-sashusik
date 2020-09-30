@@ -8,6 +8,59 @@
   <link rel="icon" type="image/x-icon" href="favicon.ico">
 </head>
 <body>
-  <app-root></app-root>
+  <a href="https://vk.com/"
+  target="blank">
+<img src="https://mooscle.com/app/uploads/2019/07/vk-logo-886x668.png" width="150" heidgt="150"></a>
+<p>ФИО</p>
+<p><input type="text" value="ФИО"></p>
+<p>Email</p>
+<p><input type="email" value="Email"></p>
+<p>Пароль</p>
+<p><input type="password" value="Пароль"></p>
+<p>Дата</p>
+<p><input type="date"></p>
+<p><input type="submit" value="Подтвердить"></p>
+<style>
+  input[type=submit]:hover{
+    background-color:blue
+}
+input[type=password]:focus{
+    color:rgb(0, 255, 98)
+}
+input[type=email]:focus{
+    color:rgb(255, 0, 0)
+}
+input[type=date]:focus{
+        color: rgb(126, 205, 241)
+}
+input[type=text]:focus{
+    color:rgb(255, 0, 191)
+}
+p, img {
+position: relative;
+left: 660px;
+}
+}
+
+@media screen and (max-width: 600px) {
+  p, img {
+    position: relative;
+    left: 150px;}
+    input[type=submit]:hover{
+        background-color:blue
+    }
+    input[type=password]:focus{
+        color:rgb(0, 255, 98)
+    }
+    input[type=email]:focus{
+        color:rgb(255, 0, 0)
+    }
+    input[type=date]:focus{
+        color: rgb(126, 205, 241)
+    }
+    input[type=text]:focus{
+        color:rgb(255, 0, 191)}
+}
+</style>
 </body>
 </html>
